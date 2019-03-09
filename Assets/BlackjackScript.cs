@@ -5,9 +5,11 @@ using UnityEngine;
 public class BlackjackScript : MonoBehaviour
 {
     public int bankScore;
-    public int playerScore;
+    public int playerScore = 0;
     public Sprite cardSprite;
     
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,16 +24,17 @@ public class BlackjackScript : MonoBehaviour
 
     void win()
     {
-      if (player_score > 21) {
-        console.log("Print you lost")
+      if (playerScore > 21) {
+        print("Print you lost");
       } 
-      elsif player_score == 21
-        "Black Jack, you win!"
-      elsif player_score > bank_score
-        "You Win!"
-      elsif player_score < bank_score
-        "You Lose!"
-      else
-        "Push" 
+      // elsif player_score == 21
+      //   "Black Jack, you win!"
+      // elsif player_score > bank_score
+      //   "You Win!"
+      // elsif player_score < bank_score
+      //   "You Lose!"
+      else {
+        print("Push"); 
+      }
     }
 }
