@@ -8,9 +8,8 @@ public class BlackjackScript : MonoBehaviour
     public int playerScore = 0;
     public Sprite cardSprite;
     
-    
+    // Sortear numero randomico p/ bankScore (16-21)
 
-    // Start is called before the first frame update
     void Start()
     {
         
@@ -26,14 +25,13 @@ public class BlackjackScript : MonoBehaviour
     {
       if (playerScore > 21) {
         print("Print you lost");
-      } 
-      // elsif player_score == 21
-      //   "Black Jack, you win!"
-      // elsif player_score > bank_score
-      //   "You Win!"
-      // elsif player_score < bank_score
-      //   "You Lose!"
-      else {
+      } else if (playerScore == 21) {
+        print("Black Jack, you win!");
+      } else if (playerScore > bankScore) {
+        print("You Win!");
+      } else if (playerScore < bankScore) {
+        print("You Lose!");
+      } else {
         print("Push"); 
       }
     }
