@@ -37,5 +37,36 @@ public class BlackjackScript : MonoBehaviour
       } else {
         print("Push"); 
       }
+
+     // switch (playerScore)
+		   //  {
+		   //      case DayOfWeek.Sunday:
+		   //          Console.WriteLine("dies Solis");
+		   //          break;
+
+		   //      case DayOfWeek.Monday:
+		   //          Console.WriteLine("dies Lunae");
+		   //          break;                    
+
+		   //      case DayOfWeek.Tuesday:
+		   //          Console.WriteLine("dies Martis");
+		   //          break;                    
+
+		   //      case DayOfWeek.Wednesday:
+		   //          Console.WriteLine("dies Mercurii");
+		   //          break;                    
+
+		   //      case DayOfWeek.Thursday:
+		   //          Console.WriteLine("dies Jovis");
+		   //          break;                    
+
+		   //      case DayOfWeek.Friday:
+		   //          Console.WriteLine("dies Veneris");
+		   //          break;
+
+		   //      case DayOfWeek.Saturday:
+		   //          Console.WriteLine("dies Saturni");
+		   //          break;
+		   //  }
     }
 }
