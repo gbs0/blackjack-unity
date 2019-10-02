@@ -7,7 +7,7 @@ public class BlackjackScript : MonoBehaviour
     public int bankScore;
     public int playerScore = 0;
     public Sprite cardSprite;
-    
+    public GameObject teste;
     // Sortear numero randomico p/ bankScore (16-21)
     var r = new Random();
     // int n = r.Next(-5, 5);
